@@ -28,7 +28,9 @@ module.exports = {
         'base': '500'
       },
       backgroundImage: {
-        'footer-pattern': "url('../../public/mobile/image-footer.jpg')"
+        'footer-pattern-mobile': "url('../../public/mobile/image-footer.jpg')",
+        'footer-pattern-tablet': "url('../../public/tablet/image-footer.jpg')",
+        'footer-pattern-desktop': "url('../../public/desktop/image-footer.jpg')",
       }
     },
   },

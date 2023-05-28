@@ -6,8 +6,14 @@ import FourthImg from '../../../public/desktop/image-man-texting.jpg'
 
 export default function Main() {
   return (
-    <main className='px-6 mb-16'>
-        <div className='grid grid-cols-2 gap-6'>
+    <main className='px-6 mb-20'>
+        <div className='grid place-items-center mb-20 xl:mt-20'>
+            <svg width="1" height="100">
+                <line x1="0" y1="0" x2="0" y2="100" stroke="gray" stroke-width="1" />
+            </svg>
+            <span className=' rounded-[50%] px-2 py-1 border-2 border-gray text-gray'>01</span>
+        </div>
+        <div className='grid grid-cols-2 gap-6 md:grid-cols-4'>
             <Image 
                 src={FirstImg}
                 alt="woman in a video call on laptop"
@@ -29,7 +35,7 @@ export default function Main() {
                 className='rounded-[8px]'
             />
         </div>
-        <div className='text-center mt-8 mb-16 w-5/6 mx-auto'>
+        <div className='text-center mt-16 w-5/6 mx-auto md:w-4/6 lg:w-1/2 xl:w-2/5'>
             <p className='font-boldest text-aqua text-base uppercase tracking-[4px]'>
                 built for modern use
             </p>
@@ -41,6 +47,12 @@ export default function Main() {
                 meetings — all in one workspace. Control who can join with 
                 invite-only team access, data encryption, and data export.
             </p>
+        </div>
+        <div className='grid justify-items-center -mb-24 mt-20'>
+            <svg width="1" height="100">
+                <line x1="0" y1="0" x2="0" y2="100" stroke="gray" stroke-width="1" />
+            </svg>
+            <span className='bg-white relative z-10 rounded-[50%] px-2 py-1 border-2 border-gray text-gray'>02</span>
         </div>
     </main>
   )

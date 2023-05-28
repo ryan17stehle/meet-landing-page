@@ -2,28 +2,25 @@ import Image from "next/image"
 import FooterImg from '../../../public/mobile/image-footer.jpg'
 
 export default function Footer() {
-  return (
-    <footer className="bg-aqua relative text-center min-h-[480px] grid place-items-center">
-        <Image 
-            src={FooterImg} 
-            alt="woman on laptop"
-            className="max-w-full opacity-10 absolute"
-        />
-        <div className="w-4/6">
-            <h2 className="text-white text-med font-boldest pt-12 pb-6">
-                Experience more together
-            </h2>
-            <p className="font-base text-white text-body pb-6">
-                Stay connected with reliable HD meetings 
-                and unlimited one-on-one and group video sessions.
-            </p>
-            <button 
-                className="mb-20 py-2 w-full text-overline font-boldest text-white bg-dark-purple rounded-[30px]"
-            >
-                Download 
-                <span className="text-overline text-teal font-boldest"> v1.3</span>
-            </button>
-        </div>
-    </footer>
-  )
+    // footer has the bg image, a div should then have the bg color with opacity
+    // the bg image adjusts to the height of the content in the footer/div containers
+    return (
+        <footer className="relative bg-footer-pattern-mobile bg-cover bg-no-repeat md:max-lg:bg-footer-pattern-tablet lg:bg-footer-pattern-desktop">
+            <div className="bg-aqua opacity-90 text-center grid place-items-center gap-6 py-12 lg:grid-cols-3">
+                <h2 className="text-white text-med font-boldest w-4/6">
+                    Experience more together
+                </h2>
+                <p className="font-base text-white text-body w-4/6">
+                    Stay connected with reliable HD meetings 
+                    and unlimited one-on-one and group video sessions.
+                </p>
+                <button 
+                    className="py-3 px-8 text-overline font-boldest text-white bg-dark-purple rounded-[30px]"
+                >
+                    Download 
+                    <span className="text-overline text-teal font-boldest"> v1.3</span>
+                </button>
+            </div>
+        </footer>
+    )
 }
