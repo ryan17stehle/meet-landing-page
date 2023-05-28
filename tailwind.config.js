@@ -7,11 +7,29 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'aqua': '#4d96a9',
+        'dark-purple': '#855fb1',
+        'black': '#28283d',
+        'gray': '#87879d',
+        'teal': '#8fe3f9',
+        'light-purple': '#d9b8ff',
+        'white': '#fafafa'
       },
+      fontSize: {
+        'h1': ['64px', '64px'],
+        'h2': ['40px', '44px'],
+        'body': ['18px', '26px'],
+        'overline': ['16px', '26px'],
+        'med': ['32px', '36px'],
+      },
+      fontWeight: {
+        'boldest': '900',
+        'base': '500'
+      },
+      backgroundImage: {
+        'footer-pattern': "url('../../public/mobile/image-footer.jpg')"
+      }
     },
   },
   plugins: [],
