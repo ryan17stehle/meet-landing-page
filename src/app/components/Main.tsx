@@ -6,7 +6,7 @@ import FourthImg from '../../../public/desktop/image-man-texting.jpg'
 
 export default function Main() {
   return (
-    <main className='px-6 mb-20'>
+    <main className='px-6 mb-20 lg:px-40'>
         <div className='grid place-items-center mb-20 xl:mt-20'>
             <svg width="1" height="100">
                 <line x1="0" y1="0" x2="0" y2="100" stroke="gray" stroke-width="1" />

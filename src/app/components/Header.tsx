@@ -18,18 +18,18 @@ export default function Header() {
         alt="Photos of people"
         className="w-1/2 relative -right-2 lg:w-[25%] lg:order-3"
       />
-      <div className="w-4/6 text-center mt-8 mb-12 md:w-1/2 lg:w-[40%]">
+      <div className="w-4/6 text-center mt-12 mb-12 md:w-1/2 lg:w-[40%]">
         <h1 className=" text-h2 font-boldest text-black mb-8">Group Chat for Everyone</h1>
         <p className="text-overline text-gray font-base mb-8">
           Meet makes it easy to connect with others face-to-face virtually and 
           collaborate across any device.
         </p>
-        <div className="flex flex-col gap-8 justify-center md:flex-row">
-          <button className="py-3 px-8 text-overline font-boldest text-white bg-aqua rounded-[30px]">
+        <div className="flex flex-col gap-8 justify-center items-center md:flex-row">
+          <button className="py-3 px-8 text-overline font-boldest text-white bg-aqua rounded-[30px] hover:opacity-80">
             Download 
             <span className="text-overline text-teal font-boldest"> v1.3</span>
           </button>
-          <button className="py-3 px-8 text-overline font-boldest text-white bg-dark-purple rounded-[30px]">
+          <button className="py-3 px-8 text-overline font-boldest text-white bg-dark-purple rounded-[30px] hover:opacity-80">
             What is it?
           </button>
         </div>
