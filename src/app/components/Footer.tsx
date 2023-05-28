@@ -18,7 +18,7 @@ export default function Footer() {
                 and unlimited one-on-one and group video sessions.
             </p>
             <button 
-                className="mb-20 py-2 text-overline font-boldest w-1/2 text-white bg-dark-purple rounded-[30px]"
+                className="mb-20 py-2 w-full text-overline font-boldest text-white bg-dark-purple rounded-[30px]"
             >
                 Download 
                 <span className="text-overline text-teal font-boldest"> v1.3</span>

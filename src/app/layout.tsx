@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${rhd.className} min-w-[280px] max-w-[425px] border-2`}>
+      <body className={`${rhd.className} min-w-[280px] max-w-[425px]`}>
         {children}
       </body>
     </html>
